@@ -1,0 +1,85 @@
+.container{
+  max-width: 900px;
+  width: 90%;
+  padding: 10px;
+  color: white;
+  
+  margin: 90px auto 0;
+
+  background-color: #272727;
+  border-radius: 8px;
+
+}
+
+.container h1{
+  text-align: center;
+  margin: 30px 0 20px;
+}
+
+.input-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 20px 10px;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.password-box{
+  flex: 1;
+  padding: 10px;
+  font-size: 24px;
+  font-weight: 500;
+  height: 100%;
+
+  outline: none;
+  border: none;
+}
+
+.copy-button{
+  padding: 10px 16px;
+  font-size: 24px;
+  font-weight: 700;
+  background-color: #F5511E;
+  color: #fff;
+  cursor: pointer;
+
+  transition: all 0.6s ease;
+  outline: none;
+  border: none;
+}
+.copy-button:hover {
+  letter-spacing: 2px;
+}
+
+
+.lower-container{
+  display: flex;
+  align-items: center;
+  gap: 40px;
+
+  margin: 0 20px 30px;
+  padding: 20px;
+
+}
+
+.flexp{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.slider{
+  font-size: 24px;
+}
+
+#slider-range, #numberInput, #characterInput{
+  accent-color: #F5511E;
+  cursor: pointer;
+}
+.checkbox-group{
+  font-size: 24px;
+}
+.checkbox-group label{
+  cursor: pointer;
+}
